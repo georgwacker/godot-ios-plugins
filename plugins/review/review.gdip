@@ -1,0 +1,17 @@
+[config]
+name="Review"
+binary="review.xcframework"
+
+initialization="review_init"
+deinitialization="review_deinit"
+
+[dependencies]
+linked=[]
+embedded=[]
+system=["StoreKit.framework"]
+
+capabilities=[]
+
+files=[]
+
+[plist]
